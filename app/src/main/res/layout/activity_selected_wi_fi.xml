@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:orientation="vertical"
+     android:layout_height="match_parent"
+     android:layout_width="match_parent">
+
+     <TextView
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:id="@+id/selectedWifi"
+         android:layout_margin="10dp"
+         android:textStyle="bold"
+         />
+
+     <Button
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:id="@+id/got_wifi"
+         android:text="Get info"
+         android:background="#007FFF"
+         android:layout_margin="8dp"
+         />
+
+
+     <TextView
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:id="@+id/results"
+         android:background="#E5E4E2"
+         android:layout_marginTop="10dp"
+         android:textStyle="bold"/>
+
+ </LinearLayout>
